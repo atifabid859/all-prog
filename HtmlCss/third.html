@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<!--[if IE 9 ]>   <html ng-app="resman" class="ie9 ie">  <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html ng-app="resman">
+<!--<![endif]-->
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+   <meta name="robots" content="noindex, follow"/>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+   <meta name="description" content="Post your Resume online for free and get free Job Alerts. Receive Queries from Employers/Recruiters. Post your CV Now!" />
+  <title> Resume Manager - Post Resume Online - Submit your CV - Naukri.com </title>
+
+ <style type="text/css">
+
+*{-moz-box-sizing:border-box;box-sizing:border-box}body,div,form,h1,h2,h4,html,label,p,span,table{margin:0;padding:0;border:0;font:inherit;width:100%;vertical-align:baseline}header{margin-bottom:30px}header .gnb{height:90px;width:990px;margin:auto;color:#707070 ;padding-top:34px}header .gnb .nLogo{width:237px;float:left}header .gnb p{float:right;width:auto;max-width:400px;word-break:break-all}header .gnb .primary-link.skip{float:right;font-weight:400;font-size:18px}header .gnb .underline{text-decoration:underline}header .banner{background:url(//static.naukri.com/s/5/104/i/backImg_v1.jpg) no-repeat #000;height:60px;color:#fff;text-align:center}header .banner .title{font-size:16px;padding-top:10px}header .banner .msg{font-size:19px;padding-top:2px;font-weight:400}footer{text-align:center;font-size:12px;margin-bottom:30px;margin-top:65px}footer a{color:#27a7d4 ;display:inline-block;font-size:12px;line-height:1;padding:0 10px;border-left:solid 1px #a7a7a7 }footer a:hover{color:#0f89b2 }footer a:first-child{border-left:none}footer p{color:#a7a7a7 ;margin-top:5px}body{font-family:Roboto,sans-serif;font-size:15px;font-weight:100;background-color:#fcfcfc }.wrap{width:990px;margin:0 auto}main{text-align:center;display:block}.view-container{position:relative;min-height:500px}.view-container>.view.ng-animate{position:absolute;top:0;left:0;width:100%;min-height:500px}
+
+</style>
+   <link href="//static.naukri.com/s/5/104/c/common_v9.min.css" rel="stylesheet" />
+   <link href='//fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+   <script type="text/javascript" src ="//static.naukri.com/s/0/0/j/nLoggerJB_v3.0.min.js"></script>
+    <script type="text/javascript">
+        nLogger.init({"tag":"basicdetails","nLogger":{"beaconUrl":"https:\/\/lg.naukri.com\/uba","eventName":"newMonkError","deviceType":"SERVER"},"boomerang":{"logBW":false,"beaconUrl":"https:\/\/lg.naukri.com\/uba","imageURL":"\/\/static.naukri.com\/s\/0\/0\/i\/","eventName":"newMonkPerformance","deviceType":"SERVER"},"tenantId":1,"appId":106,"userIP":"1738381513"});
+    </script>
+    <script type="text/javascript" src="//static.naukri.com/s/5/100/j/loggerSPA_v6.min.js">
+   </script>
+   <script>
+  nLogger.init({"tag":"ResmanDesktop","nLogger":{"beaconUrl":"https:\/\/lg.naukri.com\/uba","eventName":"newMonkError","deviceType":"SERVER"},"boomerang":{"logBW":false,"beaconUrl":"https:\/\/lg.naukri.com\/uba","imageURL":"\/\/static.naukri.com\/s\/0\/0\/i\/","eventName":"newMonkPerformance","deviceType":"SERVER"},"tnm":{"beaconUrl":"https:\/\/lg.naukri.com\/nLogger\/tnmLogger.php","pluginBaseUrl":"\/\/static.naukri.com\/s\/5\/100\/j\/tnm_v8.min.js","eventName":"newMonkTNM","deviceType":"SERVER","pluginBaseURL":null},"tenantId":1,"appId":104,"userIP":"1738381513"});
+   </script>
+   <script> (function() { var queuedSuperProps = []; var queuedEvents = []; window.ub = { track: function(eventName, eventProps) { queuedEvents.push([eventName, eventProps]) }, register: function(properties) { queuedSuperProps.push(properties); } };
+            var script = document.createElement("script"); script.async = true; script.src = "//static.naukri.com/s/0/1/j/ub_v1.8.min.js";script.onload = function() { ub.init({
+                    beaconUrl : "https://logs.naukri.com/uba", bulkBeaconUrl : "https://logs.naukri.com/collectorapi/v1/uba/bulk", queuedEvents:queuedEvents, queuedSuperProps:queuedSuperProps,  tenantId:'1' , autoTrack:false, blackList: 
+                []
+            }); };document.head.appendChild(script);}()); ub && ub.register({ appId:106, pageName: "specCharsRemoved",  tenantId:'1' , }); </script>
+</head>
+
+
+
+<body ng-controller="ResmanCtrl">
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NX744H"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script> 
+function isEmailinURL(){
+  // This regular expression check whether URL contain a email or not
+  const regExp = new RegExp(/([\s]*)([_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*([ ]+|)@([ ]+|)([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,}))([\s]*)/i);
+  var decodedUrl = decodeURIComponent(location.href);
+  return regExp.test(decodedUrl);
+};
+if(!isEmailinURL()){        
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-NX744H');
+}
+</script>
+
+<!-- End Google Tag Manager -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      /* ga('create', 'UA-77334543-1', 'auto');
+      ga('send', 'pageview');*/
+      ga('create', 'UA-78538815-1', {'name':'live2'});
+    </script>
+
+
+
+  <base href="//my.naukri.com/account/register/"/>
+<header>
+       <div class="gnb">
+           <a href="//www.naukri.com" class="nLogo">
+               <img src="//static.naukri.com/s/5/104/i/naukri_Logo.png" alt="Naukri.com, India’s No.1 Job Site" title="Naukri.com, India’s No.1 Job Site">
+           </a>
+           <p ng-if="!header.email && !header.profile">Already Registered? <a ng-href="https://login.naukri.com/" ng-click="track.eventTrackGA('click','Login_BasicDetails')" class="primary-link" title="Jobseeker Login">Login</a> here</p>
+           <p class="dispNone" ng-class="{'dispBlock':header.email && !header.profile}">Welcome <span class="underline" ng-bind="header.email"></span></p>
+            <a class="primary-link skip dispNone" ng-class="{'dispBlock':header.profile}" href='https://www.naukri.com/free-job-alerts?src=DRES' >Skip this step</a>
+       </div>
+       <div id="banner" class="banner">
+       <div class="msgCont dispNone" ng-class="{'dispBlock':!progressbar.show}">
+               <p class="title" ng-bind="header.title"></p>
+               <p class="msg" ng-bind="header.msg"></p>
+           </div>
+       <ul class="progressbar dispNone" ng-class="{'dispBlock':progressbar.show}">
+               <li ng-repeat="bar in progressbar.arr | filter:{visible: true}" ng-class="bar.class">
+                   <div ng-bind="::bar.text"></div>
+                   <em></em>
+               </li>
+           </ul>
+       </div>
+      <div class="alert" ng-class="{'success': header.regFlag,'error':header.errorFlag}">
+          <i></i>
+          <span ng-bind="header.alertMessage"></span>
+      </div>
+   </header>
+   <main class="wrap">
+    <div id="viewContainer" class="view-container">
+           <div ng-view class="view" ></div>
+       </div>
+   </main>
+
+   <footer>
+       <a href="http://www.infoedge.in/" target="_blank">About Us</a>
+       <a href="//www.naukri.com/mynaukri/mn_contactus.php" target="_blank">Contact Us</a>
+       <a href="//my.naukri.com/faq/faq.php" target="_blank">FAQs</a>
+       <a href="//www.naukri.com/termsconditions" target="_blank">Terms and Conditions</a>
+       <a href="//w5.naukri.com/fdbck/main/feedback.php" target="_blank">Report a Problem</a>
+       <a href="//www.naukri.com/privacypolicy" target="_blank">Privacy Policy</a>
+       <p>All rights reserved &copy; 2021 Info Edge India Ltd.</p>
+   </footer>
+<script type="text/javascript"  src="/6hNr9tincL-wbsq8brbX/EcE3kmrkEh/KyMEeFx7bw/EwA-Nyw/GaC0B"></script></body>
+
+<script>var CLUSTER_URL = "CLUSTER_URL";</script>
+<script src="//static.naukri.com/s/5/104/j/libs.min.js" defer></script>
+<script src="//static.naukri.com/s/5/104/j/app_v85.min.js" defer></script>
+<script>
+var serverValues = {
+        timestamp: "2021-09-13",
+        userType: "fresher",
+        source: "basicDetails",
+        version: "v1",
+        socialSignupFlow: "",
+        othersrcp :"23531",
+        displayMsg: "",
+        skipUrl : 'https://www.naukri.com/free-job-alerts?src=DRES',//Used on profile completion page as skip
+        sendToApi : {
+               cb : '',//Callback url
+           },
+        fieldValues:{
+        "title" : "",
+        "email" : "",
+        "mobile" : "",
+        "name" : "",
+        "city" : "",
+        "cityId" : "",
+        "rawTotalExperience" :"",
+        },
+        "countryCode": "IN"
+}
+var doubleClickData = {};
+</script>
+
+<!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml">  <head>  <link rel="canonical" href="https://www.naukri.com/browse-jobs"/>   <meta charset="UTF-8" /> <meta http-equiv="X-UA-Compatible" content="IE=Edge" /> <link rel="manifest" href="https://www.naukri.com/notifymanifest.json"/>   <title> Browse Jobs by Company, Location, Skills, Designation & Industry - Naukri.com </title> <meta name="description" content=" Browse thousands of Jobs in top companies & industries on basis of your skills or designation on Naukri.com. Register Free to Apply online"/>  <script type="text/javascript" src ="//static.naukri.com/s/0/0/j/nLoggerJB_v3.0.min.js"></script><script type="text/javascript">nLogger.init({"tag":"revamped_browse_jobs","nLogger":{"beaconUrl":"https:\/\/lg.naukri.com\/uba","eventName":"newMonkError","deviceType":"SERVER"},"boomerang":{"logBW":false,"beaconUrl":"https:\/\/lg.naukri.com\/uba","imageURL":"\/\/static.naukri.com\/s\/0\/0\/i\/","eventName":"newMonkPerformance","deviceType":"SERVER"},"tenantId":1,"appId":109,"userIP":"1738381513"});</script>  <script> (function() { var queuedSuperProps = []; var queuedEvents = []; window.ub = { track: function(eventName, eventProps) { queuedEvents.push([eventName, eventProps]) }, register: function(properties) { queuedSuperProps.push(properties); } };
+    var script = document.createElement("script"); script.async = true; script.src = "//static.naukri.com/s/0/1/j/ub_v1.8.min.js";script.onload = function() { ub.init({
+            beaconUrl : "https://logs.naukri.com/uba", bulkBeaconUrl : "https://logs.naukri.com/collectorapi/v1/uba/bulk", queuedEvents:queuedEvents, queuedSuperProps:queuedSuperProps,  tenantId:'1' , autoTrack:false, blackList: 
+        []
+    }); };document.head.appendChild(script);}()); ub.register({ appId:109, pageName: "jobsearch",  tenantId:'1' , }); </script>   <link rel="stylesheet" type="text/css" href="https://static.naukri.com/s/4/101/c/common_v85.min.css" media="all"/> <link rel="stylesheet" type="text/css" href="https://static.naukri.com/s/4/103/c/browseCommon_v1.min.css" media="all"/> <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">   <script type="text/javascript">var pageId = 20151201 </script>  <script>
+     var global={layers:{}};
+     global.premium={"mbaUrl":'https://www.naukri.com/premium-jobs-for-iim-mba-graduates', "enggUrl":"https://www.naukri.com/premium-jobs-for-iit-engineering-graduates"};
+     global.searchUrl='https://www.naukri.com';
+     global.username='';
+     global.isRemembered='';
+     global.resid = '';
+     global.mynaukrihomeUrl='https://my.naukri.com/HomePage/view';
+     global.mynaukricompleteprofileurl='https://my.naukri.com/CompleteProfile/editPage1';
+     var premCookieDomainName =  '.naukri.com' ;
+     var trackImpression = {};
+                trackImpression['ambitionBoxAd'] = "";
+             </script>   </head>  <body class="browseAllPage _srpPage">   <!--[if lte IE 9]>
+
+<div class="msgBar red wrap"> <div class="cnt">We support Internet Explorer version 10 and above. You are using an <b>Older</b>  version. Kindly<a target="_blank" href="http://windows.microsoft.com/en-IN/internet-explorer/download-ie"><b> Upgrade your browser</b></a></div></div>
+
+<![endif]--> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <script>
+      if (typeof jQuery == 'undefined') {
+        document.write(decodeURI("%3Cscript src='https://static.naukri.com/s/0/0/j/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+      }
+   </script>       
+
+<div class="headGNBWrap"> <div class="headGNB cloneCont wrap"> <a class="nLogo fl" href="https://www.naukri.com"><img src="https://static.naukri.com/s/4/100/i/naukri_Logo.png" alt="Naukri.com, India’s No.1 Job Site" /></a> <ul class="midSec menu"> <li class="" ""><a title="Search Jobs" href="https://www.naukri.com/browse-jobs" target="_blank"><span class="topIcon jobs">&nbsp;</span><div class="mTxt">Jobs</div></a> <div class="subMenu c2"> <ul> <li><a target="_blank" href="https://www.naukri.com" title="Search Jobs">Search Jobs</a></li> <li><a target="_blank" href="https://www.naukri.com/advanced-search" title="Advanced Search">Advanced Search</a></li> <li><a target="_blank" href="https://www.naukri.com/free-job-alerts" title="Create Free Job Alert">Create Free Job Alert</a></li> <li><a target="_blank" href="https://www.naukri.com/account/createaccount?othersrcp=16201&amp;err=1" title="Register Now">Register Now</a></li> </ul> <ul> <li><a target="_blank" href="https://www.naukri.com/jobs-by-location" title="Jobs by Location">Jobs by Location</a></li> <li><a target="_blank" href="https://www.naukri.com/top-skill-jobs" title="Jobs by Skill">Jobs by Skill</a></li> <li><a target="_blank" href="https://www.naukri.com/top-jobs-by-designations" title="Jobs by Designation">Jobs by Designation</a></li> <li><a href="https://www.naukri.com/top-company-jobs" title="Jobs by Company">Jobs by Company</a></li> <li><a href="https://www.naukri.com/jobs-by-category" title="Jobs by Category">Jobs by Category</a></li> <li><a target="_blank" href="https://www.naukri.com/browse-jobs" title="Browse All Jobs">Browse All Jobs</a></li> </ul> </div> </li> <li class="''"><a href="https://www.naukri.com/recruiters" title="Search Recruiters" target="_blank"><span class="topIcon jobs Recr">&nbsp;</span><div class="mTxt">Recruiters</div></a> <div class="subMenu"> <ul> <li><a target="_blank" href="https://www.naukri.com/recruiters/browse-all-recruiters" title="Browse All Recruiters">Browse All Recruiters</a></li> <li><a target="_blank" href="https://resume.naukri.com/contact-recruiters-hr?fftid=GNB_RC" title="Recruiter Connection">Recruiter Connection</a></li> <li><a target="_blank" href="https://naukrirecruiter.naukri.com?src=128" title="Go to NaukriRecruiter">Go to NaukriRecruiter</a></li> </ul> </div> </li> <li class="''"><a title="Jobs Posted By Top Companies" href="https://www.naukri.com/top-company-jobs" target="_blank"><span class="topIcon jobs Comp">&nbsp;</span><div class="mTxt">Companies</div></a> <div class="subMenu"> <ul> <li><a target="_blank" href="https://www.naukri.com/top-company-jobs" title="Browse All Companies">Browse All Companies</a></li> <li><a target="_blank" href="https://www.ambitionbox.com/list-of-companies?utm_source=naukri&utm_medium=gnb" title="About Companies" rel="noindex nofollow">About Companies</a></li> <li><a target="_blank" href="https://www.ambitionbox.com/interviews?utm_source=naukri&utm_medium=gnb" title="Interview Questions">Interview Questions</a></li> <li><a target="_blank" href="https://www.ambitionbox.com/contribute/company-review?utm_source=naukri&utm_medium=gnb" title="Write Company Review" rel="noindex nofollow">Write Company Review</a></li> <li><a target="_blank" href="https://www.ambitionbox.com/contribute/interview-story?utm_source=naukri&utm_medium=gnb" title="Write Interview Advice">Write Interview Advice</a></li> <li><a target="_blank" href="https://www.ambitionbox.com/reviews?utm_source=naukri&utm_medium=gnb" title="Company Reviews">Company Reviews</a></li> <li><a target="_blank" href="https://www.ambitionbox.com/salaries?utm_source=naukri&utm_medium=desktop&utm_campaign=gnb" title="Company Salaries">Company Salaries</a></li> </ul> </div> </li> <li class="''"><a href="https://insights.naukri.com/careertools" target="_blank"><span class="topIcon jobs Insights">&nbsp;</span><div class="mTxt">Tools</div></a> <div class="subMenu"> <ul> <li><a target="_blank" href="https://insights.naukri.com/careertools" title="Career Dashboard">Career Dashboard</a></li> <li><a target="_blank" href="https://insights.naukri.com/careertools/careerRole/" title="Your next career move">Your next career move</a></li> <li><a target="_blank" href="https://insights.naukri.com/careertools/industrytrends" title="Skills Trends">Skills Trends</a></li> <li><a target="_blank" href="https://insights.naukri.com/careertools/naukriLab" title="Naukri Lab">Naukri Lab</a></li> </ul> </div> </li> <li class="''"><a title="Naukri FastForward- Resume Services" href="https://resume.naukri.com/resume-services?fftid=100001&id=" target="_blank"><span class="topIcon jobs Serv">&nbsp;</span><div class="mTxt">Services</div></a> <div class="subMenu c3"> <ul class="group"> <li class="header1"><a title="Resume Writing">Resume Writing</a></li> <li><a target="_blank" href="https://resume.naukri.com/resume-writing-services?fftid=101001" title="Text Resume">Text Resume</a></li> <li><a target="_blank" href="https://resume.naukri.com/visual-resume-writing-services?fftid=101002" title="Visual Resume">Visual Resume</a></li> <li><a target="_blank" href="https://resume.naukri.com/resume-quality-score?fftid=101003" title="Resume Quality Score - Free">Resume Quality Score - Free</a></li> <li class="lastSib"><a target="_blank" href="https://resume.naukri.com/resume-samples?fftid=101004" title="Resume Samples">Resume Samples</a></li> <li class="header1"><a title="Jobs For You">Jobs For You</a></li> <li><a target="_blank" href="https://resume.naukri.com/job-alerts-on-mobile-mail?fftid=101011#jobmail" title="Jobs4U">Jobs4U</a></li> </ul> <ul class="group"> <li class="header1"><a>Recruiter Reach</a></li> <li><a title="Resume Display" href="https://resume.naukri.com/resume-display?fftid=101009" target="_blank">Resume Display</a></li> <li><a title="Priority Applicant" href="https://resume.naukri.com/priority-job-application?fftid=101019" target="_blank"><span class="newStatus"></span>Priority Applicant</a></li> <li><a title="RecruiterConnection" href="https://resume.naukri.com/contact-recruiters-hr?fftid=101010" target="_blank"><span class="newStatus"></span>RecruiterConnection</a></li> <li class="lastSib"><a title="Job Search Booster" href="https://resume.naukri.com/jobsearch-booster?fftid=101020" target="_blank">Job Search Booster</a></li> <li class="header1"><a>Other</a></li> <li><a title="Help/FAQ" href="https://resume.naukri.com/frequently-asked-questions-faq/?fftid=101013" target="_blank">Help / FAQ</a></li> <li><a title="Career Advice" href="https://resume.naukri.com/articles/?fftid=101014" target="_blank">Career Advice</a></li> <li><a title="Contact Us" href="https://resume.naukri.com/contact-us?fftid=101015" target="_blank">Contact Us</a></li> <li class="header1"><a>Monthly Subscriptions</a></li> <li><a title="Basic & Premium Plans" href="https://resume.naukri.com/subscription-product?fftid=101025" target="_blank">Basic & Premium Plans</a></li> </ul> <ul class="group"> <li class="header1"><a>Courses / Certifications</a></li> <li><a title="Data Science" href="https://www.naukri.com/learning/data-science-courses-certification-training-ct123?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Data Science</a></li> <li><a title="Machine Learning" href="https://www.naukri.com/learning/machine-learning-courses-certification-training-st553?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Machine Learning</a></li> <li><a title="Big Data" href="https://www.naukri.com/learning/big-data-courses-certification-training-st601?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Big Data</a></li> <li><a title="Programming" href="https://www.naukri.com/learning/programming-courses-certification-training-st619?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Programming</a></li> <li><a title="Business Analytics" href="https://www.naukri.com/learning/business-analytics-courses-certification-training-st583?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Business Analytics</a></li> <li><a title="Project Management" href="https://www.naukri.com/learning/project-management-courses-certification-training-st313?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Project Management</a></li> <li><a title="Web Design" href="https://www.naukri.com/learning/web-design-courses-certification-training-st305?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Web Design</a></li> <li><a title="DevOps and Cloud computing" href="https://www.naukri.com/learning/cloud-technologies-courses-certification-training-st607?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">DevOps and Cloud computing</a></li> <li><a title="Marketing" href="https://www.naukri.com/learning/marketing-courses-certification-training-st593?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Marketing</a></li> <li><a title="Accounting and Finance" href="https://www.naukri.com/learning/finance-courses-certification-training-ct133?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Accounting and Finance</a></li> <li><a title="Banking" href="https://www.naukri.com/learning/banking-courses-certification-training-st579?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Banking</a></li> <li><a title="Logistics and Supply Chain" href="https://www.naukri.com/learning/logistics-and-supply-chain-courses-certification-training-st627?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Logistics and Supply Chain</a></li> <li><a title="Strategy and Leadership" href="https://www.naukri.com/learning/strategy-and-leadership-courses-certification-training-st633?utm_source=naukri&utm_medium=naukri_gnb&utm_content=naukri_gnb&utm_campaign=naukri_gnb_top&fftid=naukri_gnb" target="_blank">Strategy and Leadership</a></li> </ul> </div> </li> <li class='""'><a href="http://naukri.shiksha.com" target="_blank"><span class="topIcon jobs More">&nbsp;</span><div class="mTxt">More</div></a> <div class="subMenu c3"> <ul class="group"> <li class="header1"><a>Career Tools</a></li> <li><a target="_blank" href="https://www.naukri.com/blog/?utm_campaign=gnb&amp;utm_source=naukri&amp;utm_medium=desktop" title="Naukri Blog">Naukri Blog</a></li> <li><a target="_blank" href="https://www.naukri.com/faq/job-seeker?utm_source=gnb" title="FAQ">FAQ</a></li> <li class="lastSib"><a target="_blank" href="https://www.ambitionbox.com/salaries/take-home-salary-calculator?utm_campaign=gnb&amp;utm_source=naukri&amp;utm_medium=desktop" title="Take Home Calculator">Take Home Calculator</a></li> <li class="header1"><a>Study Abroad</a></li> <li><a target="_blank" href="https://studyabroad.shiksha.com/mba-in-abroad-dc11508" title="MBA">MBA</a></li> <li><a target="_blank" href="https://studyabroad.shiksha.com/ms-in-abroad-dc11509" title="MS">MS</a></li> <li><a target="_blank" href="https://studyabroad.shiksha.com/sop-statement-of-purpose-applycontent1701" title="SOP">SOP</a></li> <li><a target="_blank" href="https://studyabroad.shiksha.com/exams/gmat" title="GMAT">GMAT</a></li> <li class="lastSib"><a target="_blank" href="https://studyabroad.shiksha.com/exams/ielts" title="IELTS">IELTS</a></li> </ul> <ul class="group"> <li class="header1"><a>Top Courses & Colleges</a></li> <li><a target="_blank" href="https://www.shiksha.com/mba-pgdm-chp" title="MBA">MBA</a></li> <li><a target="_blank" href="https://www.shiksha.com/mba/colleges/mba-colleges-india" title="MBA Colleges in India">MBA Colleges in India</a></li> <li><a target="_blank" href="https://www.shiksha.com/mba/ranking/top-mba-colleges-in-india/2-2-0-0-0" title="Top MBA Colleges">Top MBA Colleges</a></li> <li><a target="_blank" href="https://www.shiksha.com/engineering-chp" title="Engineering">Engineering</a></li> <li><a target="_blank" href="https://www.shiksha.com/engineering/colleges/colleges-india" title="Engineering Colleges">Engineering Colleges</a></li> <li><a target="_blank" href="https://www.shiksha.com/b-tech/ranking/top-engineering-colleges-in-india/44-2-0-0-0" title="Top Engineering Colleges">Top Engineering Colleges</a></li> <li><a target="_blank" href="https://www.shiksha.com/bba-chp9" title="BBA/BBM">BBA/BBM</a></li> <li><a target="_blank" href="https://www.shiksha.com/hospitality-travel/hotel-hospitality-management/colleges/bhm-colleges-india" title="BHM">BHM</a></li> <li class="lastSib"><a target="_blank" href="https://www.shiksha.com/it-software/bca-chp14" title="BCA, DCA, BSc CS/IT">BCA, DCA, BSc CS/IT</a></li> </ul> <ul class="group"> <li class="header1"><a>Top Exams</a></li> <li><a target="_blank" href="https://www.shiksha.com/b-tech/jee-main-exam" title="JEE Main">JEE Main</a></li> <li><a target="_blank" href="https://www.shiksha.com/b-tech/jee-advanced-exam" title="JEE Advanced">JEE Advanced</a></li> <li><a target="_blank" href="https://www.shiksha.com/b-tech/bcece-exam" title="BCECE">BCECE</a></li> <li><a target="_blank" href="https://www.shiksha.com/engineering/gate-exam" title="GATE">GATE</a></li> <li><a target="_blank" href="https://www.shiksha.com/mba/cat-exam" title="CAT">CAT</a></li> <li><a target="_blank" href="https://www.shiksha.com/mba/snap-exam" title="SNAP">SNAP</a></li> <li><a target="_blank" href="https://www.shiksha.com/college/aima-centre-for-management-education/mat-exam" title="MAT">MAT</a></li> <li><a target="_blank" href="https://www.shiksha.com/medicine-health-sciences/medicine/neet-ug-exam" title="NEET">NEET</a></li> <li><a target="_blank" href="https://www.shiksha.com/exams/sbi-po" title="SBI PO">SBI PO</a></li> <li><a target="_blank" href="https://www.shiksha.com/exams/ibps-po" title="IBPS PO">IBPS PO</a></li> </ul> </div> </li> <li><a title="Jobseeker Login" href="https://login.naukri.com/nLogin/Login.php" id="login_Layer"><span class="topIcon jobs Login">&nbsp;</span><div class="mTxt">Login</div></a></li> </ul> <div class="rghtSec fr menu nonLogged"> <ul class="notifySec"> <li> <a href="https://www.naukri.com/mnjuser/recommendedjobs" target="_blank" class="blob" id="blobId"> <div class="topIcon notify"><span>&nbsp;</span></div> <div class="mTxt"><span id="rJobCntr" class="rJobCntr"></span></div> </a> </li> </ul> <ul class="otherSec"> <li><a href="https://www.naukri.com/recruit/login" title="For Employers" target="_blank"><span class="topIcon jobs">&nbsp;</span><div class="mTxt">For Employers</div></a> <div class="subMenu"> <ul> <li><a target="_blank" href="https://www.naukri.com/recruit/buy-resume-database-access-packages" title="Buy online">Buy online</a></li> <li><a target="_blank" href="https://www.naukri.com/recruit/login" title="Employer Login">Employer Login</a></li> </ul> </div> </li> </ul> </div> <input type="hidden" domain=".naukri.com" id="blobNotificationURL" value="https://www.naukri.com/notify" cache="true" unReg="true" /> <div class="septr"></div></div> </div>    <script type="text/javascript">
+if (!global) {
+global = {};
+}
+if (!global.layers) {
+global.layers = {}
+}
+if (!global.layers.loginLayer) {
+global.layers.loginLayer = {};
+}
+
+global.layers.loginLayer.data = {
+callbackKey: 		1,
+formAction:         "https://login.naukri.com/nLogin/Login.php",
+URL:                "https://www.naukri.com/components/fb?app_id=109",
+failURL:            "https://www.naukri.com/components/fb?app_id=109&fail=1",
+forgot_pswd_url:    "https://login.naukri.com/nLogin/forgotpass.php",
+registerURL:        "https://www.naukri.com/account/createaccount?othersrcp=16201&amp;err=1"
+};
+global.layers.loginLayer.data.socialLogin = {
+googleLogin:'https://login.naukri.com/nLogin/SocialLoginController.php?source=g&',
+fbLogin:'https://login.naukri.com/nLogin/SocialLoginController.php?source=f&'
+};
+var redirectUrl = {
+successLogin: "https://my.naukri.com" ,
+captchaLogin: "https://login.naukri.com/nLogin/Login.php",
+OTPLogin: "https://login.naukri.com/nLogin/Login.php?msg=6",
+resetPassWrdLogin: "https://login.naukri.com/nLogin/resetpassnew.php?uid="
+};
+
+var loginDetails = {
+newLogin : true,    // true if new login feature is to be shown else false.
+ajaxURL : "https://www.naukri.com/central-login-services/v0/login"     // Ajax URL on which API is to be hit.
+};
+var newRedirectUrl = {
+successLogin: "https://my.naukri.com" ,
+captchaLogin: "https://www.naukri.com/nlogin/login",
+OTPLogin: "https://login.naukri.com/nLogin/Login.php?msg=6",
+resetPassWrdLogin: "https://login.naukri.com/nLogin/resetpassnew.php?uid="
+};
+if (!global.layers.newLoginLayer) {
+global.layers.newLoginLayer = {};
+}
+global.layers.newLoginLayer.data = {
+callbackKey:        1,
+formAction:         "https://login.naukri.com/nLogin/Login.php",
+URL:                "https://www.naukri.com/components/fb?app_id=109",
+failURL:            "https://www.naukri.com/components/fb?app_id=109&fail=1",
+forgot_pswd_url:    "https://www.naukri.com/nlogin/forgotpassword",
+registerURL:        "https://www.naukri.com/account/createaccount?othersrcp=16201&amp;err=1"
+};
+global.layers.newLoginLayer.data.socialLogin = {
+googleLogin:'https://login.naukri.com/nLogin/SocialLoginController.php?source=g&',
+fbLogin:'https://login.naukri.com/nLogin/SocialLoginController.php?source=f&'
+};
+
+</script>    <div></div> <div class="bgBand"> <div class="blrLyr dspN"><span class="close"></span></div> <div class="topBand"> <div class="wrap"> <ul class="tabs"> <li  ><a title="All Jobs" href="https://www.naukri.com" >All Jobs</a></li> <li class=" target_premiumLayer"><a title="IIT/IIM Jobs" href="https://www.naukri.com/premium-jobs-for-iit-engineering-graduates">IIT/IIM Jobs</a></li> <li  ><a title="Govt. Jobs" href="https://www.naukri.com/psu-government-jobs">Govt. Jobs</a></li> <li ><a title="International Jobs" href="https://www.naukri.com/international-jobs">International Jobs</a></li> <li><a title="Walk-in Jobs" href="https://www.naukri.com/walkin-jobs">Walk-in Jobs</a></li> </ul> </div> </div> <div class="wrap"> <div class="qsbWrap">      <div class="qsbSec"> <div class="srcJob dspN">Search Jobs</div>  <form class='qsbFormJS' data-action="https://www.naukri.com/" id="qsbForm" name="qsbForm" method="post" data-domain="https://www.naukri.com/" data-error-message="Please enter Keywords or Location to search" >  <div class="clrFx"> <input type="hidden" value="109" name="app_id"> <input type="hidden" value="home" name="qsb_section">    <div class="qsbfield">      <div class="suggest" id="skill" data-start_search_after="2" data-max_suggestions="15"> <div class="sWrap lftBrd"> <div class="iconWrap"><span class="nLoder"></span></div> <div class="inpWrap"> <input rel="custom:1016" name="qp" class="sugInp" type="text" placeholder="Skills, Designations, Companies" value="" maxlength="250"> </div> </div> </div>       <div class="suggest" id="location" data-start_search_after="2"> <div class="sWrap"> <div class="iconWrap"><span class="nLoder"></span></div> <div class="inpWrap"> <input rel="custom:1016" name='ql' value="" class="sugInp w135" type="text" placeholder="Location/Locality" autocomplete="off"> </div> </div> </div>    </div>  <button class="qsbSrch blueBtn" id="qsbFormBtn" type="submit" >Search </button>  </div> <div class="advnLink"> <i id="qsbError" class="erLbl fl"></i>   <a href="javascript:;" class="advSrch fr target_advanceSeachLayer">Advanced Search</a>   </div>  </form> <div class="rcntSrchWidget"></div> </div>  <script type="text/javascript">
+
+var qsbModel = {
+autoCompleteURL   : 'https://suggest.naukri.com/suggest/autosuggest?',
+checkVersionURL : "https://suggest.naukri.com/suggest/v?",
+relatedConceptURL  : 'https://suggest.naukri.com/suggest/autoconcepts?',
+prefetchingURL  : 'https://suggest.naukri.com/suggest/prefetch?',
+maxHeight       : 388,
+multiSearch     : 1,
+maxSuggestions  : 15,
+startSearchAfter: 0,
+searchIcon      : 1,
+pskillCategory  : {skill:'Skills',title:'Designations',company:'Company'},
+formID          : 'qsbForm',
+appID           : 109,
+sourceID        : 109,
+cookieDomainName: '.naukri.com',
+trackingURL     : "https://suggestlg.nauki.com/logger/log",
+vertical        : '',
+    qparams         : {'pFarea':18}
+};  
+
+var suggParams = qsbModel;
+
+</script>   <div class="brwJobSec"> <h1 class="brw">Browse Jobs</h1> <ul class="browserJob fl"> <li class="act" ><a title="All Jobs" target="_blank" href="https://www.naukri.com/browse-jobs">All Jobs</a></li> <li ><a title="Jobs by Company"href="https://www.naukri.com/top-company-jobs" target="_blank">Jobs by Company</a></li> <li ><a title="Jobs by Category" href="https://www.naukri.com/jobs-by-category" target="_blank">Jobs by Category</a></li> <li ><a title="Jobs by Location" href="https://www.naukri.com/jobs-by-location" target="_blank">Jobs by Location</a></li> <li ><a title="Jobs by designation" href="https://www.naukri.com/top-jobs-by-designations" target="_blank">Jobs by Designation</a></li> <li ><a title="Jobs by Skill" href="https://www.naukri.com/top-skill-jobs" target="_blank">Jobs by Skill</a></li> </ul> </div> </div> <div class="rgtBar fr">  <link href="https://static.naukri.com/s/4/100/c/resumeParser/p0widget_v3.min.css" rel="stylesheet" /> <div id="p0widget" class="flip-container "> <div class="flipper"> <div class="front"> <div class="registSec"> <input type="button" class="orangeBtn bifurLightBox" value="Register with us" bifurFormUrl="https://www.naukri.com/account/register/basicdetails" othersrcp="22525"> <div class="center_large_title">-or-</div> <div class="dspN"> <span id="dropArea_resumeParser"></span> <span id="results_resumeParser"></span> </div> <div id="uploadBtnCont" class="uploadBtnCont"> <input type="button" class="plainBtn" value="Upload your CV"> <input type="file" id="input_resumeParser" value="Post your CV"> <span class="disclaimer">Max 2MB, doc, docx, rtf, pdf</span> </div> <div class="center_large_title">We will create your profile</div> <div id="basicDetailLayer" class="ltBx wrappendInputs lightbox" rel="basicDetail"></div> <script>
+        //this function will work cross-browser for loading scripts asynchronously
+        function loadScript(src, callback){
+          var s,
+              r,
+              t;
+          r = false;
+          s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.src = src;
+          /* Async false to execute scripts in order */
+          s.async = false;
+          t = document.getElementsByTagName('script')[0];
+          t.parentNode.insertBefore(s, t);
+        }
+        window.addEventListener('load',function(){
+            loadScript('https://static.naukri.com/s/4/100/j/resumeParser/upload_v5.min.js');
+        });
+        </script> </div> </div> <div class="back"> <div class="msgBar red"> <span class="close"></span><div class="cnt"></div></div> </div> </div> </div>  </div> </div> </div> <div class="mainSec"> <div class="lmrWrap wrap"> <div class="browseLoc section_white_title"> <h2 class="small_title">Browse Jobs by Locations</h2> <ul class="hoz">  <li> <a title="Jobs in Mumbai" target="_blank" href="https://www.naukri.com/jobs-in-mumbai">  <span class="mum"></span>  Jobs in Mumbai </a> </li>  <li> <a title="Jobs in Delhi" target="_blank" href="https://www.naukri.com/jobs-in-delhi">  <span class="del"></span>  Jobs in Delhi </a> </li>  <li> <a title="Jobs in Bangalore" target="_blank" href="https://www.naukri.com/jobs-in-bangalore">  <span class="ban"></span>  Jobs in Bangalore </a> </li>  <li> <a title="Jobs in Hyderabad" target="_blank" href="https://www.naukri.com/jobs-in-hyderabad-secunderabad">  <span class="hyd"></span>  Jobs in Hyderabad </a> </li>  <li> <a title="Jobs in Chennai" target="_blank" href="https://www.naukri.com/jobs-in-chennai">  <span class="chen"></span>  Jobs in Chennai </a> </li>  </ul> <a title="View All Locations" class="viewAll" target="_blank" href="https://www.naukri.com/jobs-by-location">View All Locations</a> </div> <div class="colCount_two"> <div class="column"> <div class="browseFn section_white_title"> <h3>Browse Jobs by Functional Areas</h3> <div class="multiColumn colCount_two" column-count="2">  <a title="Bank Jobs" target="_blank" href="https://www.naukri.com/bank-jobs?qf[]=6">Bank Jobs</a>  <a title="Data Entry Jobs" target="_blank" href="https://www.naukri.com/data-entry-jobs?qf[]=11">Data Entry Jobs</a>  <a title="HR Jobs" target="_blank" href="https://www.naukri.com/hr-jobs?qf[]=12">HR Jobs</a>  <a title="BPO Jobs" target="_blank" href="https://www.naukri.com/bpo-jobs?qf[]=8">BPO Jobs</a>  <a title="Finance Jobs" target="_blank" href="https://www.naukri.com/finance-jobs?qf[]=1">Finance Jobs</a>  <a title="Teacher Jobs" target="_blank" href="https://www.naukri.com/teaching-jobs?qf[]=36">Teacher Jobs</a>  <a title="Legal Jobs" target="_blank" href="https://www.naukri.com/legal-jobs?qf[]=13">Legal Jobs</a>  <a title="Marketing Jobs" target="_blank" href="https://www.naukri.com/marketing-jobs?qf[]=15">Marketing Jobs</a>  <a title="Defence Jobs" target="_blank" href="https://www.naukri.com/defence-jobs?qf[]=45">Defence Jobs</a>  <a title="Internet Jobs" target="_blank" href="https://www.naukri.com/internet-jobs?qf[]=24.12">Internet Jobs</a>  </div> <a title="View All Functional Areas" class="viewAll" target="_blank" href="https://www.naukri.com/jobs-by-category#category">View All Functional Areas</a> </div> </div> <div class="column"> <div class="browseIndus section_white_title"> <h3>Browse Jobs by Industries</h3> <div class="multiColumn colCount_two" column-count="2">  <a title="Govt Jobs" target="_blank" href="https://www.naukri.com/govt-jobs?qi[]=42">Govt Jobs</a>  <a title="Railway Jobs" target="_blank" href="https://www.naukri.com/railway-jobs?qi[]=2">Railway Jobs</a>  <a title="Ngo Jobs" target="_blank" href="https://www.naukri.com/ngo-jobs?qi[]=37">Ngo Jobs</a>  <a title="Pharma Jobs" target="_blank" href="https://www.naukri.com/pharma-jobs?qi[]=22">Pharma Jobs</a>  <a title="IT Jobs" target="_blank" href="https://www.naukri.com/information-technology-jobs?qi[]=25">IT Jobs</a>  <a title="Agriculture Jobs" target="_blank" href="https://www.naukri.com/agriculture-jobs?qi[]=33">Agriculture Jobs</a>  <a title="Telecom Jobs" target="_blank" href="https://www.naukri.com/telecom-jobs?qi[]=27">Telecom Jobs</a>  <a title="Shipping Jobs" target="_blank" href="https://www.naukri.com/shipping-jobs?qi[]=44">Shipping Jobs</a>  <a title="Oil And Gas Jobs" target="_blank" href="https://www.naukri.com/oil-and-gas-jobs?qi[]=23">Oil And Gas Jobs</a>  <a title="Aviation Jobs" target="_blank" href="https://www.naukri.com/aviation-jobs?qi[]=46">Aviation Jobs</a>  </div> <a title="View All Industries" class="viewAll" target="_blank" href="https://www.naukri.com/jobs-by-category#industry">View All Industries</a> </div> </div> </div> <div class="browseComp section_white_title"> <h3>Browse Jobs by Companies</h3> <ul class="hoz">  <li> <a title="TCS Jobs" target="_blank" href="https://www.naukri.com/tata-consultancy-services-jobs-careers-892542"> <img src="http://img.naukimg.com/logo_images/v2/892542.gif"> TCS </a> </li>  <li> <a title="Wipro Jobs" target="_blank" href="https://www.naukri.com/wipro-jobs-careers-1384"> <img src="http://img.naukimg.com/logo_images/v2/1384.gif"> Wipro </a> </li>  <li> <a title="ICICI Bank Jobs" target="_blank" href="https://www.naukri.com/icici-bank-jobs-careers-10081"> <img src="http://img.naukimg.com/logo_images/v2/10081.gif"> ICICI Bank </a> </li>  <li> <a title="IBM Jobs" target="_blank" href="https://www.naukri.com/ibm-jobs-careers-16987"> <img src="http://img.naukimg.com/fc_images/v2/16987.gif"> IBM </a> </li>  <li> <a title="Intel Jobs" target="_blank" href="https://www.naukri.com/intel-jobs-careers-11014"> <img src="http://img.naukimg.com/logo_images/v2/11014.gif"> Intel </a> </li>  </ul> <a title="View All Companies" class="viewAll" target="_blank" href="https://www.naukri.com/top-company-jobs">View All Companies</a> </div> <div class="colCount_two"> <div class="column"> <div class="browseFn section_white_title"> <h3>Browse Jobs by Designations</h3> <div class="multiColumn colCount_two" column-count="2">  <a title="Company Secretary Jobs" target="_blank" href="https://www.naukri.com/company-secretary-jobs">Company Secretary Jobs</a>  <a title="Business Analyst Jobs" target="_blank" href="https://www.naukri.com/business-analyst-jobs">Business Analyst Jobs</a>  <a title="Lecturer Jobs" target="_blank" href="https://www.naukri.com/lecturer-jobs">Lecturer Jobs</a>  <a title="Air Hostess Jobs" target="_blank" href="https://www.naukri.com/air-hostess-jobs">Air Hostess Jobs</a>  <a title="Clerk Jobs" target="_blank" href="https://www.naukri.com/clerk-jobs">Clerk Jobs</a>  <a title="Oracle DBA Jobs" target="_blank" href="https://www.naukri.com/oracle-dba-jobs">Oracle DBA Jobs</a>  <a title="Computer Operator Jobs" target="_blank" href="https://www.naukri.com/computer-operator-jobs">Computer Operator Jobs</a>  <a title="Librarian Jobs" target="_blank" href="https://www.naukri.com/librarian-jobs">Librarian Jobs</a>  <a title="Management Trainee Jobs" target="_blank" href="https://www.naukri.com/management-trainee-jobs">Management Trainee Jobs</a>  <a title="Pharmacist Jobs" target="_blank" href="https://www.naukri.com/pharmacist-jobs">Pharmacist Jobs</a>  </div> <a title="View All Designations" class="viewAll" target="_blank" href="https://www.naukri.com/top-jobs-by-designations">View All Designations</a> </div> </div> <div class="column"> <div class="browseIndus section_white_title"> <h3>Browse Jobs by Skills</h3> <div class="multiColumn colCount_two" column-count="2">  <a title="Biotechnology Jobs" target="_blank" href="https://www.naukri.com/biotechnology-jobs">Biotechnology Jobs</a>  <a title="Software Testing Jobs" target="_blank" href="https://www.naukri.com/software-testing-jobs">Software Testing Jobs</a>  <a title="Nursing Jobs" target="_blank" href="https://www.naukri.com/nursing-jobs">Nursing Jobs</a>  <a title="Networking Jobs" target="_blank" href="https://www.naukri.com/networking-jobs">Networking Jobs</a>  <a title="Mainframe Jobs" target="_blank" href="https://www.naukri.com/mainframe-jobs">Mainframe Jobs</a>  <a title="SAP Jobs" target="_blank" href="https://www.naukri.com/sap-jobs">SAP Jobs</a>  <a title="Animation Jobs" target="_blank" href="https://www.naukri.com/animation-jobs">Animation Jobs</a>  <a title=".Net Jobs" target="_blank" href="https://www.naukri.com/dot-net-jobs">.Net Jobs</a>  <a title="Accounting Jobs" target="_blank" href="https://www.naukri.com/accounting-jobs">Accounting Jobs</a>  <a title="Oracle Jobs" target="_blank" href="https://www.naukri.com/oracle-jobs">Oracle Jobs</a>  </div> <a title="View All Skills" class="viewAll" target="_blank" href="https://www.naukri.com/top-skill-jobs">View All Skills</a> </div> </div> </div> </div> </div>  <script type="text/javascript">
+if (!global) {
+global = {};
+}
+if (!global.layers) {
+global.layers = {}
+}
+if (!global.layers.loginLayer) {
+global.layers.loginLayer = {};
+}
+
+global.layers.loginLayer.data = {
+callbackKey: 		1,
+formAction:         "https://login.naukri.com/nLogin/Login.php",
+URL:                "https://www.naukri.com/components/fb?app_id=109",
+failURL:            "https://www.naukri.com/components/fb?app_id=109&fail=1",
+forgot_pswd_url:    "https://login.naukri.com/nLogin/forgotpass.php",
+registerURL:        "https://www.naukri.com/account/createaccount?othersrcp=16201&amp;err=1"
+};
+global.layers.loginLayer.data.socialLogin = {
+googleLogin:'https://login.naukri.com/nLogin/SocialLoginController.php?source=g&',
+fbLogin:'https://login.naukri.com/nLogin/SocialLoginController.php?source=f&'
+};
+var redirectUrl = {
+successLogin: "https://my.naukri.com" ,
+captchaLogin: "https://login.naukri.com/nLogin/Login.php",
+OTPLogin: "https://login.naukri.com/nLogin/Login.php?msg=6",
+resetPassWrdLogin: "https://login.naukri.com/nLogin/resetpassnew.php?uid="
+};
+
+var loginDetails = {
+newLogin : true,    // true if new login feature is to be shown else false.
+ajaxURL : "https://www.naukri.com/central-login-services/v0/login"     // Ajax URL on which API is to be hit.
+};
+var newRedirectUrl = {
+successLogin: "https://my.naukri.com" ,
+captchaLogin: "https://www.naukri.com/nlogin/login",
+OTPLogin: "https://login.naukri.com/nLogin/Login.php?msg=6",
+resetPassWrdLogin: "https://login.naukri.com/nLogin/resetpassnew.php?uid="
+};
+if (!global.layers.newLoginLayer) {
+global.layers.newLoginLayer = {};
+}
+global.layers.newLoginLayer.data = {
+callbackKey:        1,
+formAction:         "https://login.naukri.com/nLogin/Login.php",
+URL:                "https://www.naukri.com/components/fb?app_id=109",
+failURL:            "https://www.naukri.com/components/fb?app_id=109&fail=1",
+forgot_pswd_url:    "https://www.naukri.com/nlogin/forgotpassword",
+registerURL:        "https://www.naukri.com/account/createaccount?othersrcp=16201&amp;err=1"
+};
+global.layers.newLoginLayer.data.socialLogin = {
+googleLogin:'https://login.naukri.com/nLogin/SocialLoginController.php?source=g&',
+fbLogin:'https://login.naukri.com/nLogin/SocialLoginController.php?source=f&'
+};
+
+</script>     
+
+<div class="footer anchorList"> <div class="wrap"> <div class="column "> <ul> <li class="header"> <a target="_blank">Information</a> </li> <li> <a href="http://infoedge.in" target="_blank" title="About Us">About Us</a> </li> <li> <a href="https://www.naukri.com/termsconditions" target="_blank"title="Terms & Conditions">Terms &amp; Conditions</a> </li> <li> <a href="https://www.naukri.com/privacypolicy" target="_blank"title="Privacy Policy">Privacy Policy</a> </li> <li> <a href="http://careers.naukri.com" target="_blank"title="Careers with Us">Careers with Us</a> </li> <li> <a href="https://www.naukri.com/sitemap/sitemap.php" target="_blank"title="Sitemap">Sitemap</a> </li> <li> <a href="https://www.naukri.com/mynaukri/mn_contactus.php" target="_blank" title="Contact Us">Contact Us</a> </li> <li> <a href="https://www.naukri.com/faq/job-seeker?utm_source=footer" target="_blank" title="FAQs">FAQs</a> </li> <li> <a href="https://w5.naukri.com/summons-notices-form/" target="_blank" title="Summons/Notices">Summons / Notices</a> </li> <li> <a href="https://w5.naukri.com/grievances-form/" target="_blank" title="Grievances">Grievances</a> </li> <li> <a href="https://company.naukri.com/landing-page/fakejobtrend/new/index.html" target="_blank" title="Fraud Alert">Fraud Alert</a> </li> <li> <a href="https://www.naukri.com/jobsearch/trust-safety" style="padding-bottom:20px" target="_blank" title="Trust and Safety">Trust and Safety</a> </li> <li class="header"> <a target="_blank">Naukri on Mobile</a> </li> <li><a class="icons stores playStore" target="_blank" href="https://play.google.com/store/apps/details?id=naukriApp.appModules.login&hl=en&utm_source=naukri&utm_medium=footer" title="Get it on Google Play">&nbsp;</a> </li> <li><a class="icons stores appStore" target="_blank" href="https://itunes.apple.com/in/app/naukri.com-job-search/id482877505?mt=8" title="Download on App Store">&nbsp;</a></li> </ul> </div> <div class="column "> <ul> <li class="header"> <a target="_blank">Jobseekers</a> </li> <li> <a href="https://www.naukri.com/tieups/tieups.php?othersrcp=24167&id=" target="_blank" title="Register Now">Register Now</a> </li> <li> <a data-domain="https://www.naukri.com/" href="https://www.naukri.com/advanced-search" target="_blank" title="Search Jobs">Search Jobs</a></li> <li> <a href="https://login.naukri.com/nLogin/Login.php" target="_blank" title="Login">Login</a> </li> <li> <a href="https://www.naukri.com/free-job-alerts" target="_blank" title="Create Job Alert">Create Job Alert</a></li> <li> <a href="https://w5.naukri.com/fdbck/main/feedback.php?app_id=15" target="_blank" title="Report a Problem">Report a Problem</a> </li> <li> <a href="https://www.naukri.com/blog/?utm_campaign=gnb&utm_source=naukri&utm_medium=desktop" target="_blank" title="Naukri Blogs">Naukri Blogs</a> </li> <li> <a href="https://www.naukri.com?env=en_mobile" style="padding-bottom:20px" title="Mobile Site">Mobile Site</a></li> <li class="header"> <a target="_blank">Browse Jobs</a> </li> <li> <a href="https://www.naukri.com/browse-jobs" target="_blank" title="Browse All Jobs">Browse All Jobs</a> </li> <li> <a href="https://www.naukri.com/premium-jobs-for-iim-mba-graduates" target="_blank" title="Premium MBA Jobs for IIM Graduates">Premium MBA Jobs</a> </li> <li> <a href="https://www.naukri.com/premium-jobs-for-iit-engineering-graduates" target="_blank" title="Premium Engineering Jobsi for IIT Graduates">Premium Engineering Jobs</a> </li> <li> <a href="https://www.naukri.com/psu-government-jobs" target="_blank" title="Govt. Jobs">Govt. Jobs</a> </li> <li> <a href="https://www.naukri.com/international-jobs" target="_blank" title="International Jobs">International Jobs</a> </li> <li> <a href="https://www.naukrigulf.com" target="_blank" title="Jobs in Gulf">Jobs in Gulf</a> </li> <li> <a href="https://www.naukri.com/top-company-jobs" target="_blank" title="Jobs by Company">Jobs by Company</a> </li> <li> <a href="https://www.naukri.com/jobs-by-category" target="_blank" title="Jobs by Category">Jobs by Category</a> </li> <li> <a href="https://www.naukri.com/top-jobs-by-designations" target="_blank" title="Jobs by Designation">Jobs by Designation</a> </li> <li> <a href="https://www.naukri.com/jobs-by-location" target="_blank" title="Jobs by Location">Jobs by Location</a> </li> <li> <a href="https://www.naukri.com/top-skill-jobs" target="_blank" title="Jobs by Skill">Jobs by Skill</a> </li> </ul> </div> <div class="column "> <ul> <li class="header"> <a target="_blank">Jobseeker Services</a> </li> <li> <a href="https://resume.naukri.com/priority-job-application?fftid=Footer_PA" target="_blank" title="Priority Applicant">Priority Applicant</a> </li> <li> <a href="https://resume.naukri.com/resume-display?fftid=Footer_RD" target="_blank" title="Resume Display">Resume Display</a> </li> <li> <a href="https://resume.naukri.com/mid-level-experienced-professionals-visual-resume-writing?fftid=Footer_VR" target="_blank" title="Resume Writing">Resume Writing</a> </li> <li> <a href="https://resume.naukri.com/job-alerts-on-mobile-mail?fftid=Footer_J4U" target="_blank" title="Jobs4UYou">Jobs4U</a> </li> <li> <a href="https://resume.naukri.com/contact-recruiters-hr?fftid=Footer_RC" target="_blank" title="Recruiter Connection">Recruiter Connection</a> </li> <li> <a href="https://resume.naukri.com/jobsearch-booster?fftid=Footer_JSB" style="padding-bottom:20px" target="_blank" title="Job Search Booster">Job Search Booster</a> </li> <li class="header"> <a target="_blank" title="Naukri Learning">Naukri Learning</a> </li> <li> <a href="https://www.naukri.com/learning/technology-courses-certification-training-ct139?fftid=Naukri_footer" target="_blank" title="Software and Technology">Software and Technology</a> </li> <li> <a href="https://www.naukri.com/learning/data-science-courses-certification-training-ct123?fftid=Naukri_footer" target="_blank" title="Artificial Intelligence and Data Science">Artificial Intelligence and Data Science</a> </li> <li> <a href="https://www.naukri.com/learning/management-courses-certification-training-ct135?fftid=Naukri_footer" target="_blank" title="Management">Management</a> </li> <li> <a href="https://www.naukri.com/learning/finance-courses-certification-training-ct133?fftid=Naukri_footer" target="_blank" title="Finance">Finance</a> </li> <li> <a href="https://www.naukri.com/learning/creativity-and-design-courses-certification-training-ct125?fftid=Naukri_footer" target="_blank" title="Creativity and Design">Creativity and Design</a> </li> <li> <a href="https://www.naukri.com/learning/emerging-technologies-courses-certification-training-ct127?fftid=Naukri_footer" target="_blank" title="Emerging Technologies">Emerging Technologies</a> </li> <li> <a href="https://www.naukri.com/learning/engineering-non-cs-courses-certification-training-ct131?fftid=Naukri_footer" target="_blank" title="Engineering-non CS">Engineering-non CS</a> </li> <li> <a href="https://www.naukri.com/learning/healthcare-courses-certification-training-ct47?fftid=Naukri_footer" target="_blank" title="Healthcare">Healthcare</a> </li> <li> <a href="https://www.naukri.com/learning/energy-and-environment-courses-certification-training-ct129?fftid=Naukri_footer" target="_blank" title="Energy and Environment">Energy and Environment</a> </li> <li> <a href="https://www.naukri.com/learning/social-sciences-courses-certification-training-ct141?fftid=Naukri_footer" target="_blank" title="Social sciences">Social sciences</a> </li> <li> <a href="https://www.naukri.com/learning/personal-growth-courses-certification-training-ct137?fftid=Naukri_footer" target="_blank" title="Personal growth">Personal growth</a> </li> </ul> </div> <div class="fl column last-child"> <div class=""> <ul> <li class="header"> <a target="_blank">Employers</a> </li> <li> <a href="https://www.naukri.com/recruit/job-posting" target="_blank" title="Job Posting">Job Posting</a> </li> <li> <a href="https://www.naukri.com/recruit/resume-database-access-resdex" target="_blank" title="Resume Database Access">Resume Database Access</a> </li> <li> <a href="https://www.naukri.com/recruit/login" target="_blank" title="Recruiter Login">Recruiter Login</a> </li> <li> <a href="https://www.naukrirms.com/" target="_blank" title="Recruitment Software, inclusive of Applicant Tracking System">Naukri RMS</a> </li> <li> <a href="https://www.naukri.com/recruit/buy-resume-database-access-packages" target="_blank" title="Buy Resume Packages Online">Buy Resume Packages Online</a> </li> <li> <a href="https://www.naukri.com/fastforward/transition-services?utm_source=backlink&utm_campaign=Naukri_footer&utm_medium=Desktop" target="_blank" title="Transition Services">Transition Services</a> </li> <li> <a href="https://w5.naukri.com/fdbck/main/feedback.php?app_id=18" target="_blank" title="Report a Problem">Report a Problem</a> </li> <li class="textual"> <a >Recruiters from USA, call</a> </li> <li class="textual"> <a target="_blank">Toll Free # 1866-557-3340</a> </li> </ul> </div> <div class=""> <ul> <li class="header"> <a target="_blank">Ambition Box</a> </li> <li> <a href="https://www.ambitionbox.com/interviews?utm_source=naukri&utm_medium=footer" target="_blank" title="Interview Questions">Interview Questions</a> </li> <li> <a href="https://www.ambitionbox.com/list-of-companies?utm_source=naukri&utm_medium=footer" target="_blank" title="About Companies" rel="noindex nofollow">About Companies</a> </li> <li> <a href="https://www.ambitionbox.com/contribute/interview-story?utm_source=naukri&utm_medium=desktop&utm_campaign=naukri_footer" target="_blank" title="Share Interview Advice">Share Interview Advice</a> </li> <li> <a href="https://www.ambitionbox.com/contribute/company-review?utm_source=naukri&utm_medium=desktop&utm_campaign=naukri_footer" target="_blank" title="Write Company Review">Write Company Review</a> </li> <li> <a href="https://www.ambitionbox.com/reviews?utm_source=naukri&utm_medium=footer" target="_blank" title="Company Reviews">Company Reviews</a> </li> <li> <a href="https://www.ambitionbox.com/salaries?utm_source=naukri&utm_medium=desktop&utm_campaign=footer" target="_blank" title="Company Salaries">Company Salaries</a> </li> </ul> </div> <div class="followus"> <a style="display:block;padding-bottom:5px;" target="_blank">Follow Us</a> <a class="icons fb" target="_blank" href="https://www.facebook.com/Naukri" title="Follow Naukri.com on Facebook">&nbsp;</a> <a class="icons twitter" target="_blank" href="https://twitter.com/naukri" title="Follow Naukri.com on Twitter">&nbsp;</a> <a class="icons ln" target="_blank" href="http://www.linkedin.com/company/naukri.com" title="Follow Naukri.com on LinkedIn">&nbsp;</a> </div> </div> </div> </div> <div class="footer carousel"> <div class="wrap" style="text-align:center;"> <span class="label">Partner Sites</span> <div class="nCarousel dspIB"> <ul class="list"> <li class="item"><a href="https://www.99acres.com/" target="_blank" class="nnacres"></a> </li> <li class="item"><a href="https://www.jeevansathi.com/" target="_blank" class="jeevansathi"></a> </li> <li class="item"><a href="https://www.naukrigulf.com/" target="_blank" class="ng"></a> </li> <li class="item"><a href="https://www.firstnaukri.com/" target="_blank" class="firstNaukri"></a> </li> <li class="item"><a href="https://www.brijj.com/" target="_blank" class="brijj"></a> </li> <li class="item"><a href="https://www.allcheckdeals.com/" target="_blank" class="allChkDeal"></a> </li> <li class="item"><a href="https://www.shiksha.com/" target="_blank" class="shiksha"></a> </li> <li class="item"><a href="https://www.policybazaar.com/" target="_blank" class="policyBazaar" ></a> </li> <li class="item"><a href="https://www.zomato.com" target="_blank" class="zomato"></a> </li> <li class="item"><a href="https://www.meritnation.com/" target="_blank" class="meritnation"></a> </li> <li class="item"><a href="https://www.mydala.com/" target="_blank" class="mydalal"></a> </li> <li class="item"><a href="https://www.paisabazaar.com/" target="_blank" class="paisaBazaar"></a> </li> </ul> </div> </div> </div> <div class="footer disclaimer"> <div class="wrap" style="text-align:center;">All rights reserved @ 2021 Info Edge (India) Ltd.</div> </div>     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" media="all"/> <script src="https://static.naukri.com/s/4/101/j/plugins_v63.min.js" type="text/javascript"></script> <script src="https://static.naukri.com/s/4/101/j/pluginsSubM_v25.min.js" type="text/javascript"></script> <script src="https://static.naukri.com/s/4/101/j/jCommonPlugins_v93.min.js" type="text/javascript"></script>  <!--[if lt IE 10]>
+    <script src="multiColumnSupport not found" type="text/javascript"></script>
+<![endif]-->   <script>
+    ub.track("browsePageView", {
+        actionType: "view",
+        browseType: "All Jobs"
+    });
+</script>    <script type="text/javascript"> 
+(function(w, d, s, l, i) {
+w[l] = w[l] || [];
+w[l].push({
+   'gtm.start': new Date().getTime(),
+   event: 'gtm.js'
+});
+var f = d.getElementsByTagName(s)[0],
+   j = d.createElement(s),
+   dl = l != 'dataLayer' ? '&l=' + l : '';
+j.async = true;
+j.src =
+   'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-NX744H');
+</script> <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NX744H" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>    <script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035313" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script> <noscript> <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035313&cv=2.0&cj=1" /> </noscript> <script type="text/javascript"  src="/jxLvux/2OqFw6/qA/luXu/veoUlWVjo/zYD1mpL4/Mnh4HhYlVws/LW8PZX/sWWWAB"></script></body> </html>
+</html>
